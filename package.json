@@ -1,0 +1,34 @@
+{
+  "name": "photon-js",
+  "description": "photon-js is a JavaScript library for Photon",
+  "version": "0.1.0",
+  "main": "./dist/photon.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/photonsh/photon-js.git"
+  },
+  "license": "MIT",
+  "author": "Photon <support@photon.sh> (https://photon.sh)",
+  "bugs": {
+    "url": "https://github.com/photonsh/photon-js/issues"
+  },
+  "keywords": [
+    "photon",
+    "highlight",
+    "syntax",
+    "browser"
+  ],
+  "homepage": "https://photon.sh",
+  "dependencies": {
+    "pako": "^1.0.4"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "uglify-js": "^2.8.13"
+  },
+  "scripts": {
+    "build:main": "browserify -s photon -o ./dist/photon.js ./src/index.js",
+    "build:min": "uglifyjs -o ./dist/photon.min.js ./dist/photon.js",
+    "build": "npm run build:main && npm run build:min;"
+  }
+}
