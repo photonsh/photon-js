@@ -3882,7 +3882,7 @@ function highlighter(document, options) {
   function sendSnippet(snippet) {
     var xhr = new XMLHttpRequest();
     xhr.open('POST', encodeURI('https://api.photon.sh/snippets'));
-    xhr.setRequestHeader('Authorization', 'APIKey ' + options.apiKey);
+    xhr.setRequestHeader('Authorization', 'Token ' + options.apiKey);
     xhr.setRequestHeader('Content-Type', 'text/html');
     xhr.setRequestHeader('Content-Encoding', 'gzip');
     xhr.setRequestHeader('Library', 'javascript');
