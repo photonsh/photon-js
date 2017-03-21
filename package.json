@@ -1,7 +1,7 @@
 {
   "name": "photon-js",
   "description": "photon-js is a JavaScript library for Photon",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./dist/photon.js",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "browserify": "^14.1.0",
-    "uglify-js": "^2.8.13"
+    "uglify-js": "^2.8.14"
   },
   "scripts": {
     "build:main": "browserify -s photon -o ./dist/photon.js ./src/index.js",
