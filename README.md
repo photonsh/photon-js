@@ -2,7 +2,7 @@
 
 photon-js is a JavaScript library for [Photon](https://photon.sh).
 
-![photon](https://raw.githubusercontent.com/photonsh/photon-js/master/demo.png)
+![Photon](https://raw.githubusercontent.com/photonsh/photon-js/master/demo.png)
 
 *We have a lot of plugins but you do not have to use them all!*
 
