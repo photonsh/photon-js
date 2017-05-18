@@ -20,11 +20,11 @@
   ],
   "homepage": "https://photon.sh",
   "dependencies": {
-    "pako": "^1.0.4"
+    "pako": "^1.0.5"
   },
   "devDependencies": {
-    "browserify": "^14.1.0",
-    "uglify-js": "^2.8.14"
+    "browserify": "^14.3.0",
+    "uglify-js": "^3.0.7"
   },
   "scripts": {
     "build:main": "browserify -s photon -o ./dist/photon.js ./src/index.js",
